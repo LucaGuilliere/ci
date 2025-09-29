@@ -6,7 +6,7 @@ jobs:
   build-app:
     runs-on: ubuntu-latest
     steps:
-      - run: "HelloWorld"
+      - run: echo "HelloWorld"
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
       - name: Build with gradle
