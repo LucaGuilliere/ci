@@ -6,4 +6,4 @@ jobs:
   Steve:
     runs-on: ubuntu-latest
     steps:
-      - run: yes "Hello, World!"
+      - run: echo "Hello, World!"
