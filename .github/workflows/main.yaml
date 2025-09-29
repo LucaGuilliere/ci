@@ -5,5 +5,5 @@ on: [push]
 jobs:
   Steve:
     runs-on: ubuntu-latest
-  steps:
-    -run: yes "Hello, World!"
+    steps:
+      -run: yes "Hello, World!"
