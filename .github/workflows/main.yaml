@@ -3,7 +3,7 @@ name: mon premier workflows
 on: [push]
 
 jobs:
-  Steve:
+  steve:
     runs-on: ubuntu-latest
     steps:
-      -run: yes "Hello, World!"
+      -run: echo "Hello, World!"
